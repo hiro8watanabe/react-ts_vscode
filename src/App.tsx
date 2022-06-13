@@ -8,10 +8,10 @@ export const App = () => {
     <>
       <h1 style={{ color: "red" }}>TEST Project</h1>
       <ColorfulMassage color="pink" fontSize="18px">
-        Hello World
+        Hello World!!
       </ColorfulMassage>
-      <ColorfulMassage color="blue" fontSize="18px">
-        Hello React
+      <ColorfulMassage color="blue" fontSize="24px">
+        Hello React!!
       </ColorfulMassage>
       <button onClick={onClickButton}>Button</button>
     </>
