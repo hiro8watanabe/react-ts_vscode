@@ -1,12 +1,19 @@
 import React from "react";
+import { ColorfulMassage } from "./components/ColorfulMassage";
 
 export const App = () => {
+  const onClickButton = () => alert();
+
   return (
     <>
-      <h1>TEST Project</h1>
-      <p>Hello World</p>
-      <p>Hello React</p>
-      <button>Button</button>
+      <h1 style={{ color: "red" }}>TEST Project</h1>
+      <ColorfulMassage color="pink" fontSize="18px">
+        Hello World
+      </ColorfulMassage>
+      <ColorfulMassage color="blue" fontSize="18px">
+        Hello React
+      </ColorfulMassage>
+      <button onClick={onClickButton}>Button</button>
     </>
   );
 };
