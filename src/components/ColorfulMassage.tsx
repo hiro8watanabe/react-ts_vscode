@@ -1,6 +1,12 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
-export const ColorfulMassage: FC<any> = (props) => {
+type Props = {
+  color: string;
+  fontSize: string;
+  children: ReactNode;
+};
+
+export const ColorfulMassage: FC<Props> = (props) => {
   const { color, fontSize, children } = props;
   const contentLadyStyle: object = {
     color: color,
