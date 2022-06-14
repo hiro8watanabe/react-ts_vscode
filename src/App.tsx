@@ -11,7 +11,6 @@ export const App = () => {
     <>
       <BrowserRouter>
         <Header />
-        <br />
         <Router />
       </BrowserRouter>
 

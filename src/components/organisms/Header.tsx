@@ -16,7 +16,8 @@ export const Header = () => {
 
 const SHeader = styled.header`
   width: 100%;
-  background-color: Gray;
+  background-color: #c0c0c0;
+  z-index: 50;
 `;
 const SHeaderInner = styled.div`
   display: flex;
