@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Logo } from "./molecules/Logo";
-import { Nav } from "./molecules/Nav";
+import { Logo } from "../molecules/Logo";
+import { Nav } from "../molecules/Nav";
 
 export const Header = () => {
   return (

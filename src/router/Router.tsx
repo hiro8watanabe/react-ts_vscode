@@ -1,10 +1,10 @@
 import { Switch, Route } from "react-router-dom";
 
-import { Home } from "../components/templates/Home";
-import { About } from "../components/templates/About";
-import { Service } from "../components/templates/Service";
-import { Contact } from "../components/templates/Contact";
-import { Page404 } from "../components/templates/Page404";
+import { Home } from "../components/pages/Home";
+import { About } from "../components/pages/About";
+import { Service } from "../components/pages/Service";
+import { Contact } from "../components/pages/Contact";
+import { Page404 } from "../components/pages/Page404";
 
 export const Router = () => {
   return (

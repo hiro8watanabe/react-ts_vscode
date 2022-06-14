@@ -1,9 +1,7 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { ColorfulMassage } from "./components/ColorfulMassage";
-import { Header } from "./components/Header";
-// import { Home } from "./components/templates/Home";
-// import { About } from "./components/templates/About";
+import { Header } from "./components/organisms/Header";
 import { Router } from "./router/Router";
 
 export const App = () => {
