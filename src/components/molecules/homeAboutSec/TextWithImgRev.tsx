@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { AboutImgRev } from "../atoms/images/AboutImgRev";
+import { AboutImgRev } from "../../atoms/images/AboutImgRev";
 
 import { AboutTextRev } from "./AboutTextRev";
 

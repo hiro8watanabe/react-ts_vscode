@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { AboutImg } from "../atoms/images/AboutImg";
+import { AboutImg } from "../../atoms/images/AboutImg";
 import { AboutText } from "./AboutText";
 
 export const TextWithImg = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { TextWithImg } from "../molecules/TextWithImg";
-import { TextWithImgRev } from "../molecules/TextWithImgRev";
+import { TextWithImg } from "../molecules/homeAboutSec/TextWithImg";
+import { TextWithImgRev } from "../molecules/homeAboutSec/TextWithImgRev";
 
 export const AboutSection = () => {
   return (

@@ -8,6 +8,8 @@ export const BaseButton = styled.button`
   border-radius: 8px;
   transition: 0.7s;
   z-index: 1;
+  text-align: center;
+  min-width: 200px;
 
   &:hover {
     opacity: 0.8;

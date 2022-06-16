@@ -1,18 +1,15 @@
+import React from "react";
 import styled from "styled-components";
-import bgImg from "../../images/computer-g27c314587_1920-min.jpg";
-import { ServiceTest } from "../molecules/ServiceTest";
-import { AboutSection } from "../organisms/AboutSection";
+import bgImg from "../../images/network-ga91991d8b_1920-min.jpg";
+import { MvTitle } from "../molecules/MvTitle";
 
-export const Service = () => {
+export const ServiceSection = () => {
   return (
-    <>
-      <SSection>
-        <SWrapper>
-          <ServiceTest/>
-        </SWrapper>
-      </SSection>
-      <AboutSection />
-    </>
+    <SSection>
+      <SWrapper>
+        <MvTitle />
+      </SWrapper>
+    </SSection>
   );
 };
 
@@ -43,3 +40,4 @@ const SWrapper = styled.div`
   align-items: center;
   height: 100%;
 `;
+

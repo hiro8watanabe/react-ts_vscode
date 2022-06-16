@@ -8,7 +8,9 @@ export const AboutTextRev = () => {
         <SSpan>TypeScriptについて</SSpan>
       </SH2title>
       <SText>
-        TypeScriptとはMicrosoft社が開発したJavaScriptのスーパーセットです。
+        TypeScriptとはMicrosoft社が開発した
+        <br />
+        JavaScriptのスーパーセットです。
         <br />
         型宣言することで、コンパイル時にエラーを吐き出すので
         <br />

@@ -7,5 +7,5 @@ export const PrimaryButton = (props) => {
 };
 
 const SButton = styled(BaseButton)`
-  background-color: #ff2020;
+  background-color: #67bc25;
 `;
