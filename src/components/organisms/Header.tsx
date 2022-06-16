@@ -16,7 +16,7 @@ export const Header = () => {
 
 const SHeader = styled.header`
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: #e2e2e2;
   z-index: 50;
 `;
 const SHeaderInner = styled.div`
@@ -24,6 +24,6 @@ const SHeaderInner = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   padding: 20px;
 `;

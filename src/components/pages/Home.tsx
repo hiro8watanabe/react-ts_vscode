@@ -1,12 +1,18 @@
 import styled from "styled-components";
 import bgImg from "../../images/patrick-tomasso-QMDap1TAu0g-unsplash-min.jpg";
+import { MvTitle } from "../molecules/MvTitle";
+import { AboutSection } from "../organisms/AboutSection";
 
 export const Home = () => {
   return (
-    <SSection>
-      <h1>HOME</h1>
-      <p>HOMEページです</p>
-    </SSection>
+    <>
+      <SSection>
+        <SWrapper>
+          <MvTitle />
+        </SWrapper>
+      </SSection>
+      <AboutSection />
+    </>
   );
 };
 
@@ -28,4 +34,12 @@ const SSection = styled.section`
     height: 100%;
     display: block;
   }
+`;
+
+const SWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 `;
