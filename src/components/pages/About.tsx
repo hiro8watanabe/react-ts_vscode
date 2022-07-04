@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import bgImg from "../../images/s-o-c-i-a-l-c-u-t-1RT4txDDAbM-unsplash-min.jpg";
-import { AboutTest } from "../molecules/AboutTest";
 import { AboutSection } from "../organisms/AboutSection";
+import { MainVisualSection } from "../organisms/MainVisualSection";
 
 export const About = () => {
   return (
     <>
       <SSection>
         <SWrapper>
-          <AboutTest/>
+          <MainVisualSection />
         </SWrapper>
       </SSection>
       <AboutSection />
